@@ -1,0 +1,12 @@
+﻿{
+    "Id": "323ADBF530C4307B336C670B3F5BD229",
+    "Name": "ToastPluginDemo",
+    "Version": "1.0",
+    "Description": "Toast plugin demo",
+    "CronExpression": "*/15 * * * * ?",
+    "StartAt": "2014-07-01 00:00:00",
+    "EndAt": "2014-07-01 00:01:00",
+    "PluginFileName": "Qzzz.ToastPluginDemo.dll",
+    "Author": "caoyue",
+    "Url": "https://github.com/caoyue/Qzzz"
+}

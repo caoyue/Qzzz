@@ -1,0 +1,10 @@
+﻿{
+    "Id": "D2923597C9625848FAB663DD8F5F09D1",
+    "Name": "SimplePluginDemo",
+    "Version": "1.0",
+    "Description": "Simple plugin demo",
+    "CronExpression": "*/10 * * * * ?",
+    "PluginFileName": "Qzzz.SimplePluginDemo.dll",
+    "Author": "caoyue",
+    "Url": "https://github.com/caoyue/Qzzz"
+}
