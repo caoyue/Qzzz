@@ -1,19 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qzzz.Plugin", "Qzzz.Plugin\Qzzz.Plugin.csproj", "{44652243-D5F3-479A-B36D-FECC722E13E5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qzzz.Toast", "Qzzz.Toast\Qzzz.Toast.csproj", "{8FDFF4EE-1307-4902-956F-5FA3F22302DA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qzzz", "Qzzz\Qzzz.csproj", "{D3BD5EAE-C7AE-4F96-8E71-69B5329776F0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{D92DA9A7-D20A-4DF1-B81B-36B2B8D4EFBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qzzz.ToastPluginDemo", "Plugins\Qzzz.ToastPluginDemo\Qzzz.ToastPluginDemo.csproj", "{E1A289A9-65BD-4826-A8DA-5DE4F67330EE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qzzz.SimplePluginDemo", "Plugins\Qzzz.SimplePluginDemo\Qzzz.SimplePluginDemo.csproj", "{DAB68297-6EF9-4C94-9909-CF819C5EB3D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{2054725B-2FA5-45D7-9F1D-6747F47C6C9A}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qzzz.Admin", "Qzzz.Admin\Qzzz.Admin.csproj", "{F33F17A8-DD28-433F-AE67-E09D69ED3F37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,28 +30,23 @@ Global
 		{44652243-D5F3-479A-B36D-FECC722E13E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44652243-D5F3-479A-B36D-FECC722E13E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44652243-D5F3-479A-B36D-FECC722E13E5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8FDFF4EE-1307-4902-956F-5FA3F22302DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8FDFF4EE-1307-4902-956F-5FA3F22302DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8FDFF4EE-1307-4902-956F-5FA3F22302DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8FDFF4EE-1307-4902-956F-5FA3F22302DA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D3BD5EAE-C7AE-4F96-8E71-69B5329776F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D3BD5EAE-C7AE-4F96-8E71-69B5329776F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3BD5EAE-C7AE-4F96-8E71-69B5329776F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3BD5EAE-C7AE-4F96-8E71-69B5329776F0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E1A289A9-65BD-4826-A8DA-5DE4F67330EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E1A289A9-65BD-4826-A8DA-5DE4F67330EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E1A289A9-65BD-4826-A8DA-5DE4F67330EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E1A289A9-65BD-4826-A8DA-5DE4F67330EE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DAB68297-6EF9-4C94-9909-CF819C5EB3D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DAB68297-6EF9-4C94-9909-CF819C5EB3D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAB68297-6EF9-4C94-9909-CF819C5EB3D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAB68297-6EF9-4C94-9909-CF819C5EB3D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F33F17A8-DD28-433F-AE67-E09D69ED3F37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F33F17A8-DD28-433F-AE67-E09D69ED3F37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F33F17A8-DD28-433F-AE67-E09D69ED3F37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F33F17A8-DD28-433F-AE67-E09D69ED3F37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{E1A289A9-65BD-4826-A8DA-5DE4F67330EE} = {D92DA9A7-D20A-4DF1-B81B-36B2B8D4EFBC}
 		{DAB68297-6EF9-4C94-9909-CF819C5EB3D2} = {D92DA9A7-D20A-4DF1-B81B-36B2B8D4EFBC}
 	EndGlobalSection
 EndGlobal

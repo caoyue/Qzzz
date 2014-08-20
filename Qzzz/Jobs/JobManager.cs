@@ -54,7 +54,7 @@ namespace Qzzz.Jobs
 
         private string GetId(QzzzPlugin plugin)
         {
-            return string.Format("{0}_{1}", plugin.PluginMeta.Name, plugin.PluginMeta.Id.ToString());
+            return string.Format("{0}_{1}", plugin.PluginMeta.Name, plugin.PluginMeta.Id.ToString("N"));
         }
 
         private IJobDetail GetJobDetail(QzzzPlugin plugin)

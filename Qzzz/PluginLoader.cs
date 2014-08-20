@@ -26,7 +26,7 @@ namespace Qzzz
             foreach (var pluginPath in allPath) {
                 var plugins = GetPlugin(pluginPath);
                 foreach (var plugin in plugins) {
-                    var id = string.Format("{0}_{1}", plugin.PluginMeta.Name, plugin.PluginMeta.Id.ToString());
+                    var id = string.Format("{0}_{1}", plugin.PluginMeta.Name, plugin.PluginMeta.Id.ToString("N"));
 
                     if (PluginJob.PluginsList.ContainsKey(id)) {
                         if (PluginJob.PluginsList[id].PluginMeta.Version == plugin.PluginMeta.Version)

@@ -9,6 +9,10 @@ A scheduler app for windows.
 - **Run as a console**<br/>
     Run ```Qzzz.exe``` and do not close the console.
 
+### Web Admin
+- Run ```Qzzz.Admin.exe``` on your scheduler server
+- Open ```http://[YourIP/localhost]:1874```
+
 ### Create a plugin
 - create a config file ```qzzz.json```
 
@@ -48,7 +52,7 @@ A scheduler app for windows.
     }
     ```
     * You can find a demo in ```Plugins\Qzzz.SimplePluginDemo```
-    * Add ```Qzzz.Toast.dll``` to use toast notification on windows 8/8.1, like ```Plugins\Qzzz.ToastPluginDemo```
+
 - Build your project and copy the plugin folder to ```Qzzz\Plugins```
 
 
